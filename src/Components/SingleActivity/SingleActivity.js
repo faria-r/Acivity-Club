@@ -1,9 +1,9 @@
 import React from 'react';
 import './SingleActivity.css'
 
-const SingleActivity = ({activity,singleActivity,setactivity}) => {
+const SingleActivity = ({activity,singleActivity,setactivity,handler}) => {
     const {name, picture,Time}= singleActivity;
-console.log(singleActivity);
+console.log(handler);
 
     return (
     <div className="cards mb-3 " >

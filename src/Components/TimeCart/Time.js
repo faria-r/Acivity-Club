@@ -6,7 +6,7 @@ const Time = () => {
         <div className='ms-5 px-3 bg-light py-5 rounded shadow'>
            {/* self intro section  */}
            <div className='mb-4'>
-            <h2 className='bg-gray shadow rounded text-primary'>Faria Rahman</h2>
+            <h2 className='bg-gray shadow rounded text-primary text-center'>Faria Rahman</h2>
             <p>Feni,Bangladesh.</p>
             <div className='d-flex shadow bg-gray rounded p-2'>
                 <div className='me-3 rounded bg-secondary p-2'>
@@ -27,10 +27,10 @@ const Time = () => {
            <div className='mb-4'>
             <h4>Add A Break</h4>
             <div className='break-time-container'>
-                <div className="break-time">20</div>
-                <div className="break-time">30</div>
-                <div className="break-time">40</div>
-                <div className="break-time">50</div>
+                <button className="break-time">20</button>
+                <button className="break-time">30</button>
+                <button className="break-time">40</button>
+                <button className="break-time">50</button>
             </div>
            </div>
            {/* exercise detailes section  */}
