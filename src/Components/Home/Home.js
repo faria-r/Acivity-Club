@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Activity from '../Activity/Activity';
+import Time from '../TimeCart/Time';
 
 const Home = () => {
     const [activity,setactivity] = useState([]);
@@ -15,8 +16,16 @@ const Home = () => {
             <h2>Daily-LifeStyle!</h2>
             <h3>Select Todays Activity To DO!</h3>
             </div> 
-           <Activity activity={activity} setactivity={setactivity}></Activity>
+          <div className='d-flex'>
+            <div>
+            <Activity activity={activity} setactivity={setactivity}></Activity>
+            </div>
+           <div>
+           <Time></Time>
+           </div>
+          </div>
         </div>
+    
     );
 };
 

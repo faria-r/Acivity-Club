@@ -5,9 +5,8 @@ import Time from './Components/TimeCart/Time';
 
 function App() {
   return (
-    <div className="App d-flex" >
+    <div className="App" >
       <Home></Home>
-      <Time></Time>
     </div>
   );
 }
