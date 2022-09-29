@@ -1,7 +1,6 @@
 import ActivityDetailes from '../ActivityDetails/ActivityDetailes';
 import Break from '../Break/Break';
 import Self from '../SelfIntro/Self';
-import './Time.css'
 
 const Time = ({timeDuration,settimeDuration}) => {
     return (
