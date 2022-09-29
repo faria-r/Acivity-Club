@@ -1,13 +1,20 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import BreakDetailes from '../BreakDetailes/BreakDetailes';
 import './Break.css'
 
 const Break = () => {
     const [time,settime] = useState(0);
+    useEffect(()=>{
+    const StoredTime = localStorage.getItem('Break-time');
+    if(StoredTime){
+    settime(JSON.parse(StoredTime));
+}
+    },[])
     const setBreakTime = (id)=>{
         const btnTimeField= document.getElementById(id);
         const btnTime = btnTimeField.innerText;
         settime(btnTime);
+        localStorage.setItem('Break-time',JSON.stringify(btnTime));
     }
 
     return (

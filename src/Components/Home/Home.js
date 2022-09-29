@@ -15,8 +15,17 @@ const Home = () => {
     },[]);
   
     const handleTimeDuration = (time)=>{
-      console.log(time);
-     settimeDuration(time);
+        const previousTime = localStorage.getItem('time');
+        const prevTimeInt = JSON.parse(previousTime);
+        if (prevTimeInt) {
+            const newTime = prevTimeInt + time;
+            settimeDuration(newTime);
+            localStorage.setItem('time',JSON.stringify(newTime));
+        }
+        else{
+            settimeDuration(parseInt(time));
+            localStorage.setItem('time',JSON.stringify(time));
+        } 
        }
     return (
         <div>
