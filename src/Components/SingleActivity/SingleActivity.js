@@ -2,10 +2,9 @@ import React from 'react';
 import './SingleActivity.css'
 
 const SingleActivity = ({activity,singleActivity,setactivity,handleTimeDuration}) => {
-    console.log(handleTimeDuration)
     const {name, picture,Time,id}= singleActivity;
     return (
-    <div className="cards mb-3 " >
+    <div className="cards mb-3" >
     <div>
       <img src={picture} className="img-fluid rounded-start" alt="..."/>
     </div>

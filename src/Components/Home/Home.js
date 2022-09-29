@@ -33,7 +33,7 @@ const Home = () => {
             <h2>Daily-LifeStyle!</h2>
             <h3>Select Todays Activity To DO!</h3>
             </div> 
-          <div className='d-flex'>
+          <div className='d-lg-flex flex-lg-row flex-sm-column-reverse'>
             <div>
             <Activity
              activity={activity} 

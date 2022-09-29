@@ -1,6 +1,16 @@
 import React from 'react';
+import Swal from 'sweetalert2'
 
 const ActivityDetailes = ({timeDuration}) => {
+    const handleCompleteBtn =() =>{
+        Swal.fire({
+            position: 'top-center',
+            icon: 'success',
+            title: 'WoW! You Have Done A Good Job',
+            showConfirmButton: false,
+            timer: 1500
+          })
+    }
     return (
         <div>
              <div>
@@ -8,7 +18,7 @@ const ActivityDetailes = ({timeDuration}) => {
             <h6>Exercise Time</h6>
             <p>{timeDuration}</p>
           </div>
-          <button className='btn btn-primary w-100 p-2 '>Activity Complete</button>
+          <button onClick={handleCompleteBtn} className='btn btn-primary w-100 p-2 '>Activity Complete</button>
            </div>
         </div>
     );
