@@ -23,7 +23,7 @@ const Break = () => {
             <h4>Add A Break</h4>
             <div className='break-time-container'>
                 <button id='one' onClick={()=> setBreakTime('one')} className="break-time">21</button>
-                <button id='two' onClick={()=> setBreakTime('two')}   className="break-time">30</button>
+                <button className='bg-primary text-white break-time' id='two' onClick={()=> setBreakTime('two')}>30</button>
                 <button id='three' onClick={()=> setBreakTime('three')}  className="break-time">40</button>
                 <button id='four' onClick={()=> setBreakTime('four')}  className="break-time">50</button>
             </div>

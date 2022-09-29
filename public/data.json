@@ -1,38 +1,38 @@
 [
     {
       "id": "633484b8052b343e787536f6",
-      "picture": "https://th.bing.com/th/id/OIP.3soHloyTUyMIrAsg-9AaxAHaLH?pid=ImgDet&rs=1",
+      "picture": "https://th.bing.com/th/id/OIP.kimwPDblGLW-NGUM78-fZwHaFj?pid=ImgDet&rs=1",
       "Time": 32,
-      "name": "Reading"
+      "name": "Playing Carrom"
     },
     {
       "id": "633484b8d684c0741b37b1a0",
-      "picture": "https://th.bing.com/th/id/R.b7193308db58866d7f35ddc2438f4c0f?rik=V6j%2bAwLRCiUm2Q&pid=ImgRaw&r=0",
+      "picture": "https://static.theprint.in/wp-content/uploads/2020/03/Badminton.jpg",
       "Time": 38,
-      "name": "Playing"
+      "name": "Playing Badminton "
     },
     {
       "id": "633484b8ecca65ea768e5c7b",
-      "picture": "https://th.bing.com/th/id/OIP.peX_52_D0Bjoj2kIPNngwwHaFD?pid=ImgDet&w=642&h=438&rs=1",
+      "picture": "https://live.staticflickr.com/108/256789068_53e6d46a70_b.jpg",
       "Time": 20,
-      "name": "Exercise"
+      "name": "Playing Chase"
     },
     {
       "id": "633484b8466485f9aef12256",
-      "picture": "https://media.istockphoto.com/photos/group-of-friends-dancing-outside-picture-id482369132",
+      "picture": "https://th.bing.com/th/id/R.e70dd24dfaef958d852cae03a681593f?rik=cj5jzALiY%2bQQRQ&pid=ImgRaw&r=0",
       "Time": 23,
-      "name": "Dancing"
+      "name": "Playing Cricket"
     },
     {
       "id": "633484b86f01dff50534f80f",
-      "picture": "https://th.bing.com/th/id/OIP.RXULciYeJRLACyPJAy_RqQHaE8?pid=ImgDet&rs=1",
+      "picture": "https://live.staticflickr.com/8754/17121753859_bffcb2c644.jpg",
       "Time": 33,
-      "name": "Writing"
+      "name": "Playing Hockey"
     },
     {
       "id": "633484b838a7516c57c2414e",
-      "picture": "https://th.bing.com/th/id/OIP.6mK50EGgZebwyc1nca04uwHaEK?pid=ImgDet&rs=1",
+      "picture": "https://th.bing.com/th/id/R.ed6dd0c9c9740655c06c1930e5678904?rik=Qk45kLcQP3cDMg&pid=ImgRaw&r=0",
       "Time": 28,
-      "name": "Singing"
+      "name": "Playing Football"
     }
   ]

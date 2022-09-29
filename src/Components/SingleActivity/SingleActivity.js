@@ -2,7 +2,7 @@ import React from 'react';
 import './SingleActivity.css'
 
 const SingleActivity = ({activity,singleActivity,setactivity,handleTimeDuration}) => {
-    const {name, picture,Time,id}= singleActivity;
+    const {name, picture,Time}= singleActivity;
     return (
     <div className="cards mb-3" >
     <div>
