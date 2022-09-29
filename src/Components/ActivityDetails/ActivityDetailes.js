@@ -1,15 +1,10 @@
 import React from 'react';
-import Swal from 'sweetalert2'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const ActivityDetailes = ({timeDuration}) => {
     const handleCompleteBtn =() =>{
-        Swal.fire({
-            position: 'top-center',
-            icon: 'success',
-            title: 'WoW! You Have Done A Good Job',
-            showConfirmButton: false,
-            timer: 1500
-          })
+        toast("Wow Good Job !");
     }
     return (
         <div>
@@ -19,6 +14,7 @@ const ActivityDetailes = ({timeDuration}) => {
             <p>{timeDuration} Minutes</p>
           </div>
           <button onClick={handleCompleteBtn} className='btn btn-primary w-100 p-2 '>Activity Complete</button>
+          <ToastContainer></ToastContainer>
            </div>
         </div>
     );
