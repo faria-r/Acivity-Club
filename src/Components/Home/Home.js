@@ -5,12 +5,19 @@ import Time from '../TimeCart/Time';
 
 const Home = () => {
     const [activity,setactivity] = useState([]);
+
+    const [timeDuration,settimeDuration] = useState(0);
     useEffect(()=>{
         fetch('data.json')
         .then(res => res.json())
         .then(data => setactivity(data))
 
     },[]);
+  
+    const handleTimeDuration = (time)=>{
+      console.log(time);
+     settimeDuration(time);
+       }
     return (
         <div>
            <div>
@@ -22,10 +29,14 @@ const Home = () => {
             <Activity
              activity={activity} 
              setactivity={setactivity}
+             handleTimeDuration={handleTimeDuration}
              ></Activity>
             </div>
            <div>
-           <Time></Time>
+           <Time 
+           timeDuration={timeDuration}
+           settimeDuration={settimeDuration}
+           ></Time>
            </div>
           </div>
 

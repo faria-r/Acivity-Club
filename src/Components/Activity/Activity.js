@@ -2,8 +2,8 @@ import React from 'react';
 import './Activity.css'
 import SingleActivity from '../SingleActivity/SingleActivity';
 
-const Activity = ({activity,setactivity},handler) => {
-   console.log(handler);
+const Activity = ({activity,setactivity,handleTimeDuration}) => {
+  
     return (
         <div>
            <div className='card-container'>
@@ -13,7 +13,7 @@ const Activity = ({activity,setactivity},handler) => {
                     activity={activity} 
                     setactivity={setactivity}
                     singleActivity = {single}
-                    handler={handler}
+                    handleTimeDuration={handleTimeDuration}
                     ></SingleActivity>))
             }
            </div>
