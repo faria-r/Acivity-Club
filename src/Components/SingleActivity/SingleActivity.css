@@ -3,7 +3,7 @@
     padding: 15px 12px;
     display: flex;
     justify-content: space-evenly;
-    border: 1px solid black;
+    border: 1px solid dodgerblue;
     box-shadow: 4px 4px 5px gray;
    border-radius: 15px;
 }

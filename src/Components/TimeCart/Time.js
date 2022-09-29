@@ -1,4 +1,5 @@
 import React from 'react';
+import { getTimeFromBtn } from '../../Utilities/Utilities';
 import './Time.css'
 
 const Time = () => {
@@ -27,10 +28,10 @@ const Time = () => {
            <div className='mb-4'>
             <h4>Add A Break</h4>
             <div className='break-time-container'>
-                <button className="break-time">20</button>
-                <button className="break-time">30</button>
-                <button className="break-time">40</button>
-                <button className="break-time">50</button>
+                <button id='timeOne' onClick={()=>getTimeFromBtn('timeOne','breakTime')} className="break-time">20</button>
+                <button id='timeTwo' onClick={()=>getTimeFromBtn('timeTwo','breakTime')} className="break-time">30</button>
+                <button id='timeThree' onClick={()=>getTimeFromBtn('timeThree','breakTime')} className="break-time">40</button>
+                <button id='timeFour' onClick={()=>getTimeFromBtn('timeFour','breakTime')} className="break-time">50</button>
             </div>
            </div>
            {/* exercise detailes section  */}
@@ -42,7 +43,7 @@ const Time = () => {
           </div>
           <div className='d-flex justify-content-evenly rounded p-2 bg-secondary shadow mb-3'>
             <h6>Break Time</h6>
-            <p>00</p>
+            <p id='breakTime'>00</p>
           </div>
            </div>
            <button className='btn btn-primary w-100 p-2 '>Activity Complete</button>

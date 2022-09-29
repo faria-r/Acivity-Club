@@ -4,6 +4,7 @@ import Time from '../TimeCart/Time';
 
 const Home = () => {
     const [activity,setactivity] = useState([]);
+    const [time,settime] = useState(0);
     useEffect(()=>{
         fetch('data.json')
         .then(res => res.json())
@@ -72,7 +73,7 @@ const Home = () => {
     </h2>
     <div id="panelsStayOpen-collapseThree" className="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
       <div className="accordion-body">
-        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classNamees that we use to style each element. These classNamees control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        Except fetching data from API , useEffect also Update the DOM and timers.
       </div>
     </div>
   </div>
