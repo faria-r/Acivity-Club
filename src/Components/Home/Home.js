@@ -30,8 +30,8 @@ const Home = () => {
     return (
         <div>
            <div>
-            <h2>Daily-LifeStyle!</h2>
-            <h3>Select Todays Activity To DO!</h3>
+            <h2 className='text-center m-3 text-primary rounded shadow-lg p-3'>Daily-LifeStyle!</h2>
+            <h3 className='m-3 text-primary rounded p-3 border-primary'>Select Todays Activity To Do!</h3>
             </div> 
           <div className='d-lg-flex flex-lg-row flex-sm-column-reverse'>
             <div>
