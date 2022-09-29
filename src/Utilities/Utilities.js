@@ -4,8 +4,16 @@ const getTimeFromBtn =(id1,id2) =>{
     const btnTimeInt = parseInt(buttonTime);
     const timeField =  document.getElementById(id2);
     timeField.innerText= btnTimeInt;
-}
+    localStorage.setItem('Break',JSON.stringify(btnTimeInt));
+    // const storedTime = localStorage.getItem('Break');
+    // if(storedTime){
+    
+    //     timeField.innerText = storedTime;
+    // }
+    // else{
 
-// const
-// // const setTimeToBreakSection = ()
+    // }
+    
+  
+}
 export {getTimeFromBtn};

@@ -3,7 +3,6 @@ import './SingleActivity.css'
 
 const SingleActivity = ({activity,singleActivity,setactivity,handler}) => {
     const {name, picture,Time}= singleActivity;
-console.log(handler);
 
     return (
     <div className="cards mb-3 " >
